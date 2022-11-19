@@ -1,0 +1,25 @@
+header {
+    background-color: blanchedalmond;
+}
+
+.projects-container {
+    display: grid;
+    background-color: antiquewhite;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.projects-container .featured {
+    grid-column: span 2;
+    
+
+}
+.projects-container div {
+    outline: 2px dashed black;
+}
+article.about img {
+    border-radius: 50%;
+    
+    
+    
+}
+
