@@ -7,41 +7,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Vai&family=Satisfy&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
+        <h1>Portfolio</h1>
         <nav>
-            <div>
-                Header left
+            <div class="flex-header">
+
+                <ul class="child2">
+                    <li><a href="#About-me">About me </a></li>
+                    <li><a href="#My-projects">My projects</a></li>
+                    <li><a href="#Contact-details">Contact details</a></li>
+                    <li>My C.V</li>
+                </ul>
             </div>
-            <ul>
-                <li>About me</li>
-                <li>My projects</li>
-                <li>Contact details </li>
-                <li>My cv</li>
-            </ul>
         </nav>
 
     </header>
     <main>
-        <article class="about" id="about-me">
-            <h2>About me</h2>
-            <p> I am marc</p>
-            <img src="/assets/marc.png" alt="Avatar of Marc Hudson">
+        <article class="flex-about">
+            <div>
+                <h2 id="About-me">About-me :</h2>
+
+                <img class="profile-img" src="/assets/marc.png" alt="Avatar of Marc Hudson">
+            </div>
+            <p> Just like there is more than one way to skin a cat (or so they say), there is more than one way to write
+                an essay. One is not required to produce a perfectly formatted five-paragraph essay every time one
+                composes a piece of writing. There is another type of essay you can write that may just be simpler than
+                the traditional style: the three-paragraph essay. This type of essay might be beneficial for beginning
+                writers as it offers the organizational structure of a longer essay without requiring the length. It
+                also offers a challenge to more advanced writers to condense their points.</p>
+
         </article>
-        <article id="my-projects">
-            <h2>My projects</h2>
+        <article class="flex-artical">
+            <h3 id="My-projects">My projects :</h3>
             <div class="projects-container">
-                <div class="featured">first</div>
-                <div>other1</div>
-                <div>other2</div>
-                <div>other 3</div>
+                <div class="featured"><img src="https://via.placeholder.com/350x150" alt=""></div>
+                <div><img src="https://via.placeholder.com/350x150" alt=""></div>
+                <div><img src="https://via.placeholder.com/350x150" alt=""></div>
+                <div><img src="https://via.placeholder.com/350x150" alt=""></div>
                 <div><img src="https://via.placeholder.com/350x150" alt=""></div>
             </div>
         </article>
-        <article id="contact-details">
-            <h2>Contact details </h2>
+        <article class="flex-footer">
+            <h4 id="Contact-details">Contact details :</h4>
             <ul>
                 <li>github</li>
                 <li>Email</li>
